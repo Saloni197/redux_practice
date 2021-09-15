@@ -22,7 +22,132 @@ function Home(props) {
                     onClick={
                         ()=>{props.addToCartHandler({pice:15000,name:'Samsung'})}
                         }>
-                        {props.data.length }   Items in Cart</button>
+                        Add to Cart</button>
+                        <button 
+                    onClick={
+                        ()=>{props.removeToCartHandler()}
+                        }>
+                        Remove From Cart</button>
+                </div>
+            </div>
+            <div className="cart-wrapper">
+                <div className="img-wrapper item">
+                    <img src="https://www.sathya.in/Media/Default/Thumbs/0044/0044918-samsung-mobile-m515fzbd-galaxy-m51-6gb-ram128gb-storage-blue.jpg" />
+                </div>
+                <div className="text-wrapper item">
+                    <span>
+                        Samsung
+                    </span><br/>
+                    <span>
+                        Price: 15000
+                    </span>
+                </div>
+                <div className="btn-wrapper item">
+                    <button 
+                    onClick={
+                        ()=>{props.addToCartHandler({pice:15000,name:'Samsung'})}
+                        }>
+                         Add to Cart</button>
+                        <button 
+                    onClick={
+                        ()=>{props.removeToCartHandler()}
+                        }>
+                        Remove From Cart</button>
+                </div>
+            </div>
+            <div className="cart-wrapper">
+                <div className="img-wrapper item">
+                    <img src="https://www.sathya.in/Media/Default/Thumbs/0044/0044918-samsung-mobile-m515fzbd-galaxy-m51-6gb-ram128gb-storage-blue.jpg" />
+                </div>
+                <div className="text-wrapper item">
+                    <span>
+                        Samsung
+                    </span><br/>
+                    <span>
+                        Price: 15000
+                    </span>
+                </div>
+                <div className="btn-wrapper item">
+                    <button 
+                    onClick={
+                        ()=>{props.addToCartHandler({pice:15000,name:'Samsung'})}
+                        }>
+                         Add to Cart</button>
+                        <button 
+                    onClick={
+                        ()=>{props.removeToCartHandler()}
+                        }>
+                        Remove From Cart</button>
+                </div>
+            </div>
+            <div className="cart-wrapper">
+                <div className="img-wrapper item">
+                    <img src="https://www.sathya.in/Media/Default/Thumbs/0044/0044918-samsung-mobile-m515fzbd-galaxy-m51-6gb-ram128gb-storage-blue.jpg" />
+                </div>
+                <div className="text-wrapper item">
+                    <span>
+                        Samsung
+                    </span><br/>
+                    <span>
+                        Price: 15000
+                    </span>
+                </div>
+                <div className="btn-wrapper item">
+                    <button 
+                    onClick={
+                        ()=>{props.addToCartHandler({pice:15000,name:'Samsung'})}
+                        }>
+                         Add to Cart</button>
+                        <button 
+                    onClick={
+                        ()=>{props.removeToCartHandler()}
+                        }>
+                        Remove From Cart</button>
+                </div>
+            </div>
+            <div className="cart-wrapper">
+                <div className="img-wrapper item">
+                    <img src="https://www.sathya.in/Media/Default/Thumbs/0044/0044918-samsung-mobile-m515fzbd-galaxy-m51-6gb-ram128gb-storage-blue.jpg" />
+                </div>
+                <div className="text-wrapper item">
+                    <span>
+                        Samsung
+                    </span><br/>
+                    <span>
+                        Price: 15000
+                    </span>
+                </div>
+                <div className="btn-wrapper item">
+                    <button 
+                    onClick={
+                        ()=>{props.addToCartHandler({pice:15000,name:'Samsung'})}
+                        }>
+                        Add to Cart</button>
+                        <button 
+                    onClick={
+                        ()=>{props.removeToCartHandler()}
+                        }>
+                        Remove From Cart</button>
+                </div>
+            </div>
+            <div className="cart-wrapper">
+                <div className="img-wrapper item">
+                    <img src="https://www.sathya.in/Media/Default/Thumbs/0044/0044918-samsung-mobile-m515fzbd-galaxy-m51-6gb-ram128gb-storage-blue.jpg" />
+                </div>
+                <div className="text-wrapper item">
+                    <span>
+                        Samsung
+                    </span><br/>
+                    <span>
+                        Price: 15000
+                    </span>
+                </div>
+                <div className="btn-wrapper item">
+                    <button 
+                    onClick={
+                        ()=>{props.addToCartHandler({pice:15000,name:'Samsung'})}
+                        }>
+                         Add to Cart</button>
                         <button 
                     onClick={
                         ()=>{props.removeToCartHandler()}
