@@ -51,7 +51,6 @@
 }
 
 .product__buttons {
-  margin-top: -110px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
